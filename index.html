@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Marko Obradovic Resume</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/64b74f54c7.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Scroll top -->
+    <a href="#" class="scrolltop" id="scroll-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    <!-- header section-->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <a href="#header" class="header-logo-text"><span>M</span>arko <span>O</span>bradović</a>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" onclick="closeMenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Hi, I am</p>
+                <h1><span>Marko Obradović</span><br> Front-End Developer </h1>
+                <a href="images/Marko-Obradovic-Developer.pdf" download class="btn3">Download Cv</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- about section -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <br>
+                    <p>As a web developer from Serbia, my job is to build websites that are functional, user-friendly,
+                        and attractive.
+                        I enjoy the process of creating websites and find satisfaction in turning complex problems into
+                        simple solutions
+                        with beautiful and intuitive designs. I am a self-taught learner,
+                        constantly seeking new challenges to expand my skill set and help others develop a similar
+                        passion for coding.
+                    </p>
+                    <br>
+                    <p>In addition to my passion for web development, I also have interests in fitness, basketball,
+                        football,
+                        the taste of good food and restaurants, architecture, and civil engineering.
+                        I have a wide range of interests in music, movies, and video games as well.
+                        These areas are a part of who I am, and if there is an opportunity to incorporate elements from
+                        these areas
+                        into my work or projects, it would make my job even more fulfilling.</p>
+                    <br>
+                    <p>Now, let's take a look at some of my skills and work.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="openTab('skills')">Skills</p>
+                        <p class="tab-links" onclick="openTab('experience')">Experience</p>
+                        <p class="tab-links" onclick="openTab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Ui/ UX</span><br>Designing Web/App Interfaces</li>
+                            <li><span>Bootstrap, Matrerial UI</span><br>Preprocesors: SASS/LESS</li>
+                            <li><span>HTML5/ CSS/ JavaScript</span><br>Frontend Web Development</li>
+                            <li><span>Angular/ TypeScript/ API</span><br>Using RxJS,NgRx</li>
+                            <li><span>Python/ NodeJS</span><br>Backend Web Development</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2021 - Current</span><br>HTML5/ CSS3/ JavaScript/ Angular/ Python teacher for
+                                students</li>
+                            <li><span>2021 - Current</span><br>Upwork Freelancer Frontend Web Developer</li>
+                            <li><span>2017 - Current</span><br>Self-employed in programming web applications
+                                and providing digital marketing and social media maintenance services for clients.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2014 - 2017</span><br>VISOKA GRADJEVINSKO -
+                                GEODETSKA SKOLA, BELGRADE (Civil Engineer)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- portfolio section -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="images/work-1.png" alt="work-1">
+                    <div class="layer">
+                        <h3>Currency Converter</h3>
+                        <p>Currency Converter implements 170 currencies and calculate latest exchage rates for given
+                            amount of money</p>
+                        <br>
+                        <p>This is responsive Angular application that use Geo API and Bootstrap</p>
+                        <p></p>
+                        <a href="https://devmarkoobradovic.github.io/Currency-Converter/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-2.png" alt="work-2">
+                    <div class="layer">
+                        <h3>Glassmorphisam App</h3>
+                        <p>This is a desktop application made with HTML/CSS and vanilla JavaScript that showcases new
+                            trends in web design.</p>
+                        <a href="https://devmarkoobradovic.github.io/glassmorphism-profile-page/"><i
+                                class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images/work-3.png" alt="work-3">
+                    <div class="layer">
+                        <h3>Website Restorana Bakara</h3>
+                        <p>This responsive website was built using HTML/CSS and JavaScript. Additionally,
+                            various JavaScript libraries, including jQuery, were utilized.</p>
+                        <br>
+                        <p> The website incorporates grid and flex layouts and has been optimized for SEO.</p>
+                        <a href="https://bakara.rs/"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="mailto:dev.markoobradovic@gmail.com"><i class="fas fa-paper-plane icontact"></i>
+                        dev.markoobradovic@gmail.com</a>
+                    <a href="tel:+381643061329"><i class="fas fa-phone-square-alt icontact"> </i> +381 643061329</a>
+                    <div class="social-icons">
+                        <a href="https://github.com/devMarkoObradovic"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/markus_obradovic/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/marko-obradovic-a10160150/"><i
+                                class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Marko-Obradovic-Developer.pdf" download class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <h2></h2>
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Text"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p> Copyright © Marko Obradović</p>
+        </div>
+    </div>
+
+    <!-- script for tabs -->
+    <script>
+
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function openTab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <!-- script for sidemenu -->
+    <script>
+
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openMenu() {
+            sidemenu.style.right = "0";
+        }
+        function closeMenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+    <!-- script for form -->
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzIqoSyzyv1hBFc3Ug5u6pxzHhN5xGg3V7XTfj0SkAvtxBFmq8va3bGD_m01NX8SULFew/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg");
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully";
+                    setTimeout(function () {
+                        msg.innerHTML = "";
+                    }, 5000),
+                        form.reset(),
+                        console.log(msg);
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <!-- script for reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
